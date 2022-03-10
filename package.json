@@ -1,6 +1,8 @@
 {
   "name": "travlr",
   "version": "0.0.0",
+  "description": "Travlr Getaways",
+  "author": "JT Bolton <jeffrey.bolton@snhu.edu>",
   "private": true,
   "scripts": {
     "start": "node ./bin/www"
