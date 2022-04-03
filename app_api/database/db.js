@@ -1,6 +1,6 @@
 
 const mongoose = require('mongoose');
-let dbURI = `mongodb://${host}/travlr`;
+const dbURI = `mongodb://localhost/travlr`;
 if (process.env.NODE_ENV === 'production') {
   dbURI = process.env.MONGODB_URI;
 }
